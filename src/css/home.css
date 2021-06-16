@@ -1,0 +1,12 @@
+body{
+    background: url(../images/bg.jpg);
+ height: 800px;
+ text-align: center;
+ color: white;
+ padding: 100px;
+ background-repeat: no-repeat;
+}
+
+.home-container h1{
+    color: lightgray;
+}

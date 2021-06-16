@@ -1,0 +1,32 @@
+.nav-bar{
+    background-color: transparent;
+    position: absolute;
+    bottom: 80%;
+    right: 5%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nav-bar-companyName a {
+    font-weight:bolder;
+    color: lightgray;
+    text-decoration: none;
+}
+
+.nav-bar-links ul li {
+        justify-content: space-around;
+}
+.nav-bar-links li{
+    font-size: 20px;
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+}
+
+.nav-bar-links a {
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+}
