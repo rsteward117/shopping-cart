@@ -1,12 +1,12 @@
 import React from "react"
-import renderproducts from './renderProducts'
+import RenderProducts from './RenderProducts'
 import products from './products'
 const ShoppingPage = (props)=>{
     return(
         <div>
            {products.map((product) =>{
                 return(
-                    <renderproducts product={product} /> 
+                    <RenderProducts  product={product} /> 
                 )
             })}   
         </div>
