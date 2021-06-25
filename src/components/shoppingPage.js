@@ -6,7 +6,7 @@ const ShoppingPage = (props)=>{
         <div>
            {products.map((product) =>{
                 return(
-                    <RenderProducts  product={product} /> 
+                    <RenderProducts  product={product} addProducts={props.addProducts}/> 
                 )
             })}   
         </div>
